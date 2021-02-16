@@ -52,12 +52,24 @@ a {
     background-color: var(--dkgrey);
 }
 
+.bg-ltgrey {
+    background-color: var(--ltgrey);
+}
+
 .bg-grey {
     background-color: var(--grey);
 }
 
+.bg-white {
+    background-color: var(--white);
+}
+
 .bg-black {
     background-color: var(--black);
+}
+
+.bg-blue {
+    background-color: var(--blue);
 }
 
 .container {
@@ -67,14 +79,18 @@ a {
 }
 
 .header {
-    background-color: var(--grey);
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .header__inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center
 }
 
 .logo {
